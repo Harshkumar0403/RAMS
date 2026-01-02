@@ -1,0 +1,90 @@
+{
+  "overall": {
+    "f1": 0.7732764742680241,
+    "precision": 0.7619047619036948,
+    "recall": 0.7849927849916523,
+    "tp": 544,
+    "fp": 170,
+    "fn": 149,
+    "total_params": 2820800002,
+    "model_size_mb": 10760.498054504395,
+    "evaluation_time_sec": 11.960246324539185,
+    "num_samples": 355
+  },
+  "sequence_scaling": {
+    "128": {
+      "seq_length": 128,
+      "avg_time_ms": 66.2764860003182,
+      "throughput": 60.18369840737587,
+      "peak_memory_mb": 48365.35791015625,
+      "memory_per_token_kb": 386922.86328125,
+      "estimated_gflops": 429.50197248
+    },
+    "256": {
+      "seq_length": 256,
+      "avg_time_ms": 82.55569586593113,
+      "throughput": 48.31603686584505,
+      "peak_memory_mb": 48384.74658203125,
+      "memory_per_token_kb": 193538.986328125,
+      "estimated_gflops": 859.00394496
+    },
+    "512": {
+      "seq_length": 512,
+      "avg_time_ms": 128.44920694158318,
+      "throughput": 31.053239953111206,
+      "peak_memory_mb": 48447.6416015625,
+      "memory_per_token_kb": 96895.283203125,
+      "estimated_gflops": 1718.00788992
+    },
+    "1024": {
+      "seq_length": 1024,
+      "avg_time_ms": 240.78514334860813,
+      "throughput": 16.56565679041459,
+      "peak_memory_mb": 48668.2587890625,
+      "memory_per_token_kb": 48668.2587890625,
+      "estimated_gflops": 3436.01577984
+    }
+  },
+  "batch_scaling": {
+    "1": {
+      "batch_size": 1,
+      "avg_time_ms": 63.59111691864444,
+      "throughput": 15.72546683335275,
+      "peak_memory_mb": 48300.67041015625,
+      "latency_per_sample_ms": 63.59111691864444
+    },
+    "2": {
+      "batch_size": 2,
+      "avg_time_ms": 83.12520016445202,
+      "throughput": 23.99250791007172,
+      "peak_memory_mb": 48343.18408203125,
+      "latency_per_sample_ms": 41.56260008222601
+    },
+    "4": {
+      "batch_size": 4,
+      "avg_time_ms": 128.7974829084418,
+      "throughput": 30.9692701664,
+      "peak_memory_mb": 48447.6416015625,
+      "latency_per_sample_ms": 32.19937072711045
+    },
+    "8": {
+      "batch_size": 8,
+      "avg_time_ms": 248.9354451497396,
+      "throughput": 31.690500660295953,
+      "peak_memory_mb": 48736.7275390625,
+      "latency_per_sample_ms": 31.11693064371745
+    }
+  },
+  "document_length": {
+    "0-128": {
+      "bin": "0-128",
+      "count": 355,
+      "precision": 0.7619047619036948,
+      "recall": 0.7849927849916523,
+      "f1": 0.7732764742680241,
+      "tp": 544,
+      "fp": 170,
+      "fn": 149
+    }
+  }
+}
