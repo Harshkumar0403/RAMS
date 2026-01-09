@@ -1,0 +1,128 @@
+[
+  {
+    "Metric":"==================================================",
+    "Mamba-2.8B":"A. PREDICTIVE PERFORMANCE",
+    "Gemma-2B":"",
+    "Winner":""
+  },
+  {
+    "Metric":"F1 Score",
+    "Mamba-2.8B":"0.7921",
+    "Gemma-2B":"0.7931",
+    "Winner":"Gemma"
+  },
+  {
+    "Metric":"Accuracy",
+    "Mamba-2.8B":"0.9134",
+    "Gemma-2B":"0.9198",
+    "Winner":"Gemma"
+  },
+  {
+    "Metric":"Precision",
+    "Mamba-2.8B":"0.7800",
+    "Gemma-2B":"0.7628",
+    "Winner":"Mamba"
+  },
+  {
+    "Metric":"Recall",
+    "Mamba-2.8B":"0.8046",
+    "Gemma-2B":"0.8260",
+    "Winner":"Gemma"
+  },
+  {
+    "Metric":"ROC-AUC",
+    "Mamba-2.8B":"0.9680",
+    "Gemma-2B":"0.9692",
+    "Winner":"Gemma"
+  },
+  {
+    "Metric":"PR-AUC",
+    "Mamba-2.8B":"0.8756",
+    "Gemma-2B":"0.8682",
+    "Winner":"Mamba"
+  },
+  {
+    "Metric":"==================================================",
+    "Mamba-2.8B":"B. TRAINING DYNAMICS",
+    "Gemma-2B":"",
+    "Winner":""
+  },
+  {
+    "Metric":"Total Training Time (sec)",
+    "Mamba-2.8B":"4472.7560",
+    "Gemma-2B":"4476.2631",
+    "Winner":"Mamba"
+  },
+  {
+    "Metric":"Avg Time per Epoch (sec)",
+    "Mamba-2.8B":"447.2756",
+    "Gemma-2B":"447.6263",
+    "Winner":"Mamba"
+  },
+  {
+    "Metric":"Best Epoch",
+    "Mamba-2.8B":"1",
+    "Gemma-2B":"3",
+    "Winner":"Gemma"
+  },
+  {
+    "Metric":"Avg Tokens\/sec",
+    "Mamba-2.8B":"2440",
+    "Gemma-2B":"2469",
+    "Winner":"Gemma"
+  },
+  {
+    "Metric":"==================================================",
+    "Mamba-2.8B":"C. MODEL SIZE & EFFICIENCY",
+    "Gemma-2B":"",
+    "Winner":""
+  },
+  {
+    "Metric":"Total Parameters (M)",
+    "Mamba-2.8B":"2820.8",
+    "Gemma-2B":"2506.2",
+    "Winner":"Gemma"
+  },
+  {
+    "Metric":"Model Size (MB)",
+    "Mamba-2.8B":"10760.4981",
+    "Gemma-2B":"9560.3047",
+    "Winner":"Gemma"
+  },
+  {
+    "Metric":"Peak GPU Memory (MB)",
+    "Mamba-2.8B":"53859.6",
+    "Gemma-2B":"47824.9",
+    "Winner":"Gemma"
+  },
+  {
+    "Metric":"==================================================",
+    "Mamba-2.8B":"D. INFERENCE PERFORMANCE",
+    "Gemma-2B":"",
+    "Winner":""
+  },
+  {
+    "Metric":"Latency P50 (ms) - Batch=1",
+    "Mamba-2.8B":"65.2485",
+    "Gemma-2B":"39.5436",
+    "Winner":"Gemma"
+  },
+  {
+    "Metric":"Latency P95 (ms) - Batch=1",
+    "Mamba-2.8B":"68.4436",
+    "Gemma-2B":"40.2425",
+    "Winner":"Gemma"
+  },
+  {
+    "Metric":"Throughput - Batch=4 (samples\/sec)",
+    "Mamba-2.8B":"0.0000",
+    "Gemma-2B":"0.0000",
+    "Winner":"Gemma"
+  },
+  {
+    "Metric":"==================================================",
+    "Mamba-2.8B":"E. SEQUENCE SCALING (2048 tokens)",
+    "Gemma-2B":"",
+    "Winner":""
+  }
+]

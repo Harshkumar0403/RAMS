@@ -1,0 +1,55 @@
+================================================================================
+MAMBA-2.8B vs GEMMA-2B: COMPREHENSIVE COMPARISON REPORT
+MAVEN Dataset - Trigger Detection Task
+================================================================================
+
+EXECUTIVE SUMMARY
+--------------------------------------------------------------------------------
+Total Metrics Compared: 16
+Mamba Wins: 4
+Gemma Wins: 12
+Overall Winner: Gemma-2B
+
+================================================================================
+DETAILED COMPARISON TABLE
+================================================================================
+
+                                            Metric                        Mamba-2.8B  Gemma-2B Winner
+==================================================         A. PREDICTIVE PERFORMANCE                 
+                                          F1 Score                            0.7921    0.7931  Gemma
+                                          Accuracy                            0.9134    0.9198  Gemma
+                                         Precision                            0.7800    0.7628  Mamba
+                                            Recall                            0.8046    0.8260  Gemma
+                                           ROC-AUC                            0.9680    0.9692  Gemma
+                                            PR-AUC                            0.8756    0.8682  Mamba
+==================================================              B. TRAINING DYNAMICS                 
+                         Total Training Time (sec)                         4472.7560 4476.2631  Mamba
+                          Avg Time per Epoch (sec)                          447.2756  447.6263  Mamba
+                                        Best Epoch                                 1         3  Gemma
+                                    Avg Tokens/sec                              2440      2469  Gemma
+==================================================        C. MODEL SIZE & EFFICIENCY                 
+                              Total Parameters (M)                            2820.8    2506.2  Gemma
+                                   Model Size (MB)                        10760.4981 9560.3047  Gemma
+                              Peak GPU Memory (MB)                           53859.6   47824.9  Gemma
+==================================================          D. INFERENCE PERFORMANCE                 
+                        Latency P50 (ms) - Batch=1                           65.2485   39.5436  Gemma
+                        Latency P95 (ms) - Batch=1                           68.4436   40.2425  Gemma
+                Throughput - Batch=4 (samples/sec)                            0.0000    0.0000  Gemma
+================================================== E. SEQUENCE SCALING (2048 tokens)                 
+
+================================================================================
+KEY INSIGHTS
+================================================================================
+
+1. Predictive Performance:
+   - F1 Score Difference: -0.0010 (Gemma is better)
+
+2. Training Efficiency:
+   - Training Time Difference: 3.5s (Mamba is faster)
+
+3. Model Size:
+   - Parameter Difference: 314.6M (Mamba is larger)
+
+================================================================================
+END OF REPORT
+================================================================================
